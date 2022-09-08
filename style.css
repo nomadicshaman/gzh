@@ -1,4 +1,53 @@
 * {
+    box-sizing: border-box;
     margin: 0;
-    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/wp.jpg);
+}
+
+.main-container {
+    display: flex;
+    background-image: linear-gradient(black, gray );
+    opacity: 0.9;
+    min-width: 1000px;
+
+    
+}
+
+.left-container {
+    border-style: solid;
+    border-right: none;
+    min-height: 1000px;
+    min-width: 350px;
+    font-weight: bold;    
+}
+
+
+.content-container {
+    border-style: solid;
+    min-width: 650px;
+    min-height: 1000px;
+}
+
+.footer {
+    background-image: linear-gradient(black, gray );    
+    min-width: 1000px;
+    text-align: center;
+    color: white    ;
+}
+
+.left-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+a:link {
+    text-decoration: none;
 }
