@@ -1,0 +1,2 @@
+- I am building this page for my favourite game Generals Zero Hour.
+- I will experiment lots of things to improve my skills.
