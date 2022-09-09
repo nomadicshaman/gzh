@@ -13,8 +13,9 @@ body {
 
 .main-container {
     display: flex;
-    background-image: linear-gradient(black, gray );
-    opacity: 0.9;
+    background-color: rgb(218, 198, 198);
+    
+    opacity: 0.85;
     min-width: 1000px;
 
     
@@ -23,9 +24,10 @@ body {
 .left-container {
     border-style: solid;
     border-right: none;
-    min-height: 1000px;
+    height: 1000px;
     min-width: 350px;
-    font-weight: bold;    
+    font-weight: bold;   
+    position: sticky; 
 }
 
 
@@ -33,6 +35,15 @@ body {
     border-style: solid;
     min-width: 650px;
     min-height: 1000px;
+}
+
+.header {
+    background-image: linear-gradient(black, orange );    
+    min-width: 1000px;
+    text-align: center;
+    color: orange;
+    padding: 10px;
+
 }
 
 .footer {
@@ -46,8 +57,30 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
 }
 
+li {
+    list-style-type: none;
+
+}
 a:link {
     text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.zhtr {
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 1;
+    
 }
